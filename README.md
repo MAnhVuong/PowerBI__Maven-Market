@@ -32,11 +32,11 @@ This Power BI dashboard provides an interactive analysis of **Maven Market**, a 
 | **Returns**      | 1997-98 return data for product performance analysis                      |
 
 ## How to Use
-1. **Open in Power BI Desktop**:
+**1. Open in Power BI Desktop**:
 - Download the ```.pbix``` file and open it in Power BI.
 - Refresh data connections if needed.
-2. **Interactive Filters**:
-Use slicers to filter by:
+**2. Interactive Filters**:
+  Use slicers to filter by:
 - Date range
 - Product brand
 - Store location
@@ -46,12 +46,12 @@ Use slicers to filter by:
 - Customer Age & Location Trends
 
 ## Sample Insights
-1. Top-Performing Brands
+**1. Top-Performing Brands:**
 - Best Choice: Highest revenue ($25,901)
 - BBB Best: Most transactions (16,395)
-2. Lowest Margin Products
+**2. Lowest Margin Products:**
 - Big City: Only 0.71% margin
-3. Regional Sales
+**3. Regional Sales:**
 - Filter by sales_region to compare performance.
 
 ## Requirements
