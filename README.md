@@ -35,8 +35,10 @@ This Power BI dashboard provides an interactive analysis of **Maven Market**, a 
 **1. Open in Power BI Desktop**:
 - Download the ```.pbix``` file and open it in Power BI.
 - Refresh data connections if needed.
+
 **2. Interactive Filters**:
-  Use slicers to filter by:
+
+Use slicers to filter by:
 - Date range
 - Product brand
 - Store location
@@ -49,8 +51,10 @@ This Power BI dashboard provides an interactive analysis of **Maven Market**, a 
 **1. Top-Performing Brands:**
 - Best Choice: Highest revenue ($25,901)
 - BBB Best: Most transactions (16,395)
+
 **2. Lowest Margin Products:**
 - Big City: Only 0.71% margin
+
 **3. Regional Sales:**
 - Filter by sales_region to compare performance.
 
