@@ -1,40 +1,41 @@
-*Maven Market Power BI Dashboard*
-**Overview**
-This Power BI dashboard provides an interactive analysis of Maven Market, a grocery chain, with insights into sales transactions, product performance, customer demographics, and store operations.
+# Maven Market Power BI Dashboard
+## Overview
+This Power BI dashboard provides an interactive analysis of **Maven Market**, a grocery chain, with insights into sales transactions, product performance, customer demographics, and store operations.
 
-**Key Features**
-***Sales & Profit Tracking***
+## Key Features
+### Sales & Profit Tracking
 - Current month transactions vs. goals
 - Net sales, amounts, and profit margins
 
-***Product Performance***
+### Product Performance
 - Breakdown by brand (e.g., ADJ, Akron, American)
 - Discount pricing, cost, and profit analysis
 
-***Customer Insights***
+### Customer Insights
 - Customer demographics (birth year, location)
 - Transaction history
 
-***Store & Regional Data***
+### Store & Regional Data
 - Store locations, size (grocery sqft), and remodel dates
 - Sales by region and district
 
-***Returns Analysis***
+### Returns Analysis
 - Historical returns data (1997-1998)
 
-**Data Sources**
-The dashboard connects to multiple datasets:
-- Customers (customer_id, birthdate, address)
-- Products (product_brand, price_tier, cost)
-- Stores (store_id, region_id, grocery_sqft)
-- Transactions (transaction_date, quantity)
-- Returns (return_quantity, date)
+## Data Sources
+| Dataset          | Key Fields                                                                 |
+|------------------|---------------------------------------------------------------------------|
+| **Customers**    | ID, birthdate, address, city, country                                     |
+| **Products**     | Brand, cost, price tier, discount price, nutritional info                 |
+| **Stores**       | Location, size, opening/remodel dates, region                             |
+| **Transactions** | Date, quantity, customer/product/store associations                       |
+| **Returns**      | 1997-98 return data for product performance analysis                      |
 
-**How to Use**
-1. Open in Power BI Desktop
-- Download the .pbix file and open it in Power BI.
+## How to Use
+1. **Open in Power BI Desktop**:
+- Download the ```.pbix``` file and open it in Power BI.
 - Refresh data connections if needed.
-2. Interactive Filters
+2. **Interactive Filters**:
 Use slicers to filter by:
 - Date range
 - Product brand
@@ -44,7 +45,7 @@ Use slicers to filter by:
 - Profit Margins by product category
 - Customer Age & Location Trends
 
-**Sample Insights**
+## Sample Insights
 1. Top-Performing Brands
 - Best Choice: Highest revenue ($25,901)
 - BBB Best: Most transactions (16,395)
@@ -53,6 +54,6 @@ Use slicers to filter by:
 3. Regional Sales
 - Filter by sales_region to compare performance.
 
-**Requirements**
+## Requirements
 Power BI Desktop (latest version)
 Access to data sources (CSV/SQL/Excel)
