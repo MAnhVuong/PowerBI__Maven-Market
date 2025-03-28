@@ -53,11 +53,11 @@ Use slicers to filter by:
 
 ## Sample Insights
 **1. Top-Performing Brands:**
-- Best Choice: Highest revenue ($25,901)
-- BBB Best: Most transactions (16,395)
+- Hermanos: Highest revenue ($33,167.27)
+- Hermanos: Most transactions (24,682)
 
-**2. Lowest Margin Products:**
-- Big City: Only 0.71% margin
+**2. Lowest Profit Margin:**
+- King: 52.53%
 
 **3. Regional Sales:**
 - Filter by sales_region to compare performance.
