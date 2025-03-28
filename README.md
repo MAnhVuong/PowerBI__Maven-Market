@@ -65,3 +65,6 @@ Use slicers to filter by:
 ## Requirements
 - Power BI Desktop (latest version)
 - Access to data sources (CSV/SQL/Excel)
+
+## Screenshot Preview
+![image](https://github.com/user-attachments/assets/807e5a6c-705c-494a-bb6e-efefdcf93a8f)
